@@ -10,6 +10,7 @@ Corpus of data for fuzzing crypto parsers of various kinds.
 * spki: X.509 subjectPublicKeyInfo structs, BER encoded
 * tls_client: TLS server flows (ie, testing a client)
 * tls_server: TLS client flows (ie, testing server)
+* x509_dn: X.509 DistinguishedNames
 
 All files should be named by their lowercase hex SHA-1 hash
 of their contents. This allows easy deduplication.
