@@ -11,6 +11,8 @@ Corpus of data for fuzzing crypto parsers of various kinds.
 * tls_client: TLS server flows (ie, testing a client)
 * tls_server: TLS client flows (ie, testing server)
 * x509_dn: X.509 DistinguishedNames
+* x509_path: A sequence of X.509 certificates (all BER encoded)
+  which may or may not be a valid path
 
 All files should be named by their lowercase hex SHA-1 hash
 of their contents. This allows easy deduplication.
